@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Kotlin Variables</header>
+      <a href="#Java_and_Kotlin" class="nav-link">Java and Kotlin</a>
+      <a href="#Difference_Java_Kotlin" class="nav-link"
+        >Difference Java Kotlin</a
+      >
+      <a href="#Hello_World" class="nav-link">Hello World</a>
+      <a href="#Tipe_Data" class="nav-link">Tipe Data</a>
+      <a href="#Variables" class="nav-link">Variables</a>
+      <a href="#String_Tempelates" class="nav-link">String Tempelates</a>
+    </nav>
+    <main id="main-doc">
+      <section id="Java_and_Kotlin" class="main-section">
+        <header>Java and Kotlin</header>
+        <p>
+          Aside from the ever-improving and changing hardware landscape in
+          technology, there is also a movement to improve the way those devices
+          are coded. As of 2019, Google has made Kotlin the official program
+          language for Android.
+        </p>
+        <p>
+          If you’ve used an Android application made after the change, you’ve
+          likely been running Kotlin developed applications without even
+          noticing. That’s because this switch is for developers.
+        </p>
+        <p>
+          Most people are familiar with the term ‘Java’, even if only by name.
+          It was released in 1995 as the backend programming language for web
+          applications, games, audio, and video. It became so popular that it
+          sprouted sub-languages and prompted operating system developers to
+          include a virtual machine specifically for reading and running
+          applications.
+        </p>
+        <p>
+          Kotlin was designed to provide a better experience for developers and
+          end-users by preventing common problems without changing
+          compatibility. Java was the first full feature programming language to
+          take over running the internet. Being among the first of anything in
+          software development leads to unintentional problems down the road.
+          Kotlin was designed around common flaws in the Java structure to
+          remove some of those unintentional problems. Part of the reason no one
+          noticed the change as an Android user is that Kotlin compiles to the
+          same base code that can be read by the Java Virtual Machines (JVMs)
+          installed in modern devices. This allows developers to switch from
+          Java to Kotlin easily.
+        </p>
+      </section>
+
+      <section id="Difference_Java_Kotlin" class="main-section">
+        <header>Difference Java Kotlin</header>
+        <ul>
+          <li>Speed of coding</li>
+          <p>
+            Kotlin and Java provide almost the same speed for coding. However,
+            Kotlin has more laconic constructions, which allow a developer to
+            type less. Finding a solution to a task requires more time than with
+            Java, which means that the language has a higher cognitive load. For
+            an abstract thinker, Kotlin is an ideal choice. Java has more coding
+            processes than Kotlin. Because of this, a coder needs to spend less
+            time thinking of a solution. As the difference in coding speed
+            between these languages is not sizable, the verdict for Kotlin vs
+            Java on this segment is a draw.
+          </p>
+          <li>Performance</li>
+          <p>
+            As both Kotlin and Java compile to ByteCode (which runs on JVM) it
+            is a daunting task to compare them when it comes to memory usage.
+            Hence, measuring, tracking, and comparing their performance is hard.
+            Kotlin is more functional than Java, due to its extra features. It
+            is also easier to work with multithreading apps due to Kotlin’s
+            Coroutines tool. Yet, the language compiles and executes a little
+            slower than Java, which is mainly due to the extensive number of
+            features. On the other hand, Java is simple, and has fewer extra
+            features than Kotlin, thus compiling faster. As the difference is
+            slight, the battle of Kotlin vs Java based on performance is also a
+            draw.
+          </p>
+          <li>Stability</li>
+          <p>
+            Stability is one parameter where we can find a notable difference
+            between the languages. Java is a programming language that has been
+            in the development scenario for quite a long time. The language
+            provides long-term support for versions like Java 8 and Java 11,
+            which means that if anything goes wrong with these versions,
+            developers will fix it with a patch. A coder can download various
+            versions of Java with a free license. Though Kotlin is also an
+            established language, it is still younger than Java. The language
+            has no versions with long-term support. Though both Java and Kotlin
+            are considered stable languages, Java ultimately wins the battle of
+            stability.
+          </p>
+          <li>Documentation</li>
+          <p>
+            Though both languages have plenty of documentation to learn, it is
+            easier to find a tutorial or a book for Java as it has been in use
+            for a longer time. Java is often considered to be the most
+            straightforward programming language to learn, and one can find
+            official documentation from Oracle. On the other hand, though a
+            comparatively young language, I believe Kotlin’s official
+            documentation is sufficient to learn how to work with it, so this
+            battle too ends in a draw.
+          </p>
+          <li>Popularity</li>
+          <p>
+            According to Google Trends, Java tickles the interest of developers
+            more than Kotlin. Though Java has gone through a few ups and downs,
+            the popularity of the language stays ahead of Kotlin by a long
+            distance. One of the major reasons for this is the longer life of
+            Java. Java’s need for fewer cognitive investments in learning is
+            also another crucial reason. Because of this, the battle for
+            popularity goes to Java.
+          </p>
+        </ul>
+      </section>
+
+      <section id="Hello_World" class="main-section">
+        <header>Hello World</header>
+        <p>
+          To get started with writing Kotlin, Open IDE and write your first
+          "Hello World" Kotlin code:
+        </p>
+        <code>
+          <pre>
+  fun main() {
+    println("Hello World!")
+  }
+        </pre
+          >
+        </code>
+        <p>This is different from Java which writes the code like this</p>
+        <code>
+          <pre>
+  public class ProgramHelloWorld {
+      public static void main (String[] args) {
+          System.out.println("Hello World");
+      }
+  }
+          </pre>
+        </code>
+      </section>
+
+      <section id="Tipe_Data" class="main-section">
+        <header>Tipe Data</header>
+        <p>For Example</p>
+        <code>
+          <pre>
+  fun main() {
+    val myNum: Int = 2                // Int
+    val myDoubleNum: Double = 5.09    // Double
+    println(myNum)
+    println(myDoubleNum)
+  }            
+          </pre>
+        </code>
+        <p>Output:<br />2<br />5.09</p>
+        <code>
+          <pre>
+  fun main() {
+    val myLetter: Char = 'Y'          // Char
+    val myBoolean: Boolean = true     // Boolean
+    val myText: String = "Future"     // String
+    println(myLetter)
+    println(myBoolean)
+    println(myText)
+  }            
+          </pre>
+        </code>
+        <p>Output:<br />y<br />true<br />Future</p>
+      </section>
+
+      <section id="Variables" class="main-section">
+        <header>Variables</header>
+        <p>
+          Read-only local variables are defined using the keyword val. They can
+          be assigned a value only once.
+        </p>
+        <code>
+          <pre>
+  val a: Int = 1  // immediate assignment
+  val b = 2   // `Int` type is inferred
+  var x = 5 // `Int` type is inferred
+  c = 3       // deferred assignment
+          </pre>
+        </code>
+        <p>var mutable = can edit || val immutable = can't edit</p>
+      </section>
+
+      <section id="String_Tempelates" class="main-section">
+        <header>String Tempelates</header>
+        <code>
+          <pre>
+  var a = 1
+  // simple name in template:
+  val s1 = "a is $a" 
+
+  a = 2
+  // arbitrary expression in template:
+  val s2 = "${s1.replace("is", "was")}, but now is $a"
+          </pre>
+        </code>
+        <p>
+          The String template is the same as the String data type, which
+          represents data in the form of text / textual. String templates
+          introduced by ES6 use template strings by providing a back-tick(` `)
+          to a data.
+        </p>
+      </section>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
